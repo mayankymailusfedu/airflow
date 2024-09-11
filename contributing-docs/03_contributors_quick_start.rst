@@ -29,11 +29,11 @@ you follow the guide.
 
 There are three ways you can run the Airflow dev env:
 
-1. With a Docker Containers and Docker Compose (on your local machine). This environment is managed
-   with `Breeze <../dev/breeze/doc/README.rst>`_ tool written in Python that makes the environment
+1. `With a Docker Containers and Docker Compose (on your local machine) <local_machine_development>`_. This environment is managed
+   with `Breeze <../dev/breeze/doc/README.rst> tool written in Python that makes the environment
    management, yeah you guessed it - a breeze.
-2. With a local virtual environment (on your local machine).
-3. With a remote, managed environment (via remote development environment)
+2. `With a local virtual environment (on your local machine) <using_your_ide>`_
+3. `With a remote, managed environment (via remote development environment) <using_remote_development_environments>`_
 
 Before deciding which method to choose, there are a couple of factors to consider:
 
@@ -44,6 +44,7 @@ Before deciding which method to choose, there are a couple of factors to conside
   For a comprehensive venv tutorial - visit `Local virtualenv <07_local_virtualenv.rst>`_
 * You need to have usually a paid account to access managed, remote virtual environment.
 
+.. _local_machine_development:
 Local machine development
 #########################
 
@@ -739,7 +740,7 @@ describes how to do it.
 * `Update new changes made to apache:airflow project to your fork <10_working_with_git.rst#how-to-sync-your-fork>`__
 * `Rebasing pull request <10_working_with_git.rst#how-to-rebase-pr>`__
 
-
+.. _using_your_ide:
 Using your IDE
 ##############
 
@@ -751,6 +752,7 @@ will find more detailed instructions here:
 * `Visual Studio Code <quick-start-ide/contributors_quick_start_vscode.rst>`_
 
 
+.. _using_remote_development_environments:
 Using Remote development environments
 #####################################
 
